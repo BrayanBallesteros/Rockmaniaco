@@ -1,8 +1,9 @@
 .homebackground{
-    background: url("../IMAGES/Home\ con\ logo.jpg") top center no-repeat;
+    background: url("../IMAGES/Untitled-2.jpg") top center no-repeat; 
     color: white; 
     background-attachment:scroll;
     background-size: cover; 
+    
 }
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -190,13 +191,18 @@ header section button:hover {
 
     }    
 
+    #ar p { 
+        display:inline-block;
+        margin: 10px 100px;
+
+    }
 #box1{
    
 width: 303px;
 height: 425px;
 margin-left: 20px;
 margin-top: 70px;
-background:#c4c4c4;
+background: url("../IMAGES/banda1.jpg");
 box-shadow: 10px 0px 5px;
 display: inline-block;
 cursor: pointer;
@@ -206,17 +212,17 @@ cursor: pointer;
     width: 303px;
     height: 425px;
     margin-left: 20px;
-    background:#c4c4c4;
+    background:url("../IMAGES/banda2.jpg");
     box-shadow: 10px 0px 5px;
     display: inline-block;
     cursor: pointer;
 }
 #box3{
     
-width: 304px;
+width: 303px;
 height: 425px;
 margin-left: 20px;
-background:#c4c4c4;
+background:url("../IMAGES/banda3.jpg");
 box-shadow: 10px 0px 5px;
 display: inline-block;
 cursor: pointer;
@@ -302,7 +308,7 @@ cursor: pointer;
 /* Nosotros */ 
 
     #nosotros{
-        background-image: url("../IMAGES/nosotros.jpg");
+        background-image: url("../IMAGES/Untitled-1.jpg");
         background-size: cover;
         background-attachment: scroll;
         padding: 50px 0px;
@@ -314,25 +320,23 @@ cursor: pointer;
         font-size: 64px;
         text-align: center;
         color: #fcd116;
-        background: rgb(0,0,0,0.6);
         padding: 20px;
     }
     
     #nosotros p{
         font-size: 32px;
-        color: black;
+        color: white;
         text-align: left;
-        width: 1616px;
+        width: 1080px;
         height: 600px;
-        background: rgba(252, 209, 22, 0.49);
-        margin: 0 auto;
+        margin: 0 auto 200px;
         padding: 40px;
 
  }
 /* CONTACTO */ 
 
  #contacto{
-     background-image: url("../IMAGES/contacto.jpg");
+     background-image: url("../IMAGES/Untitled-3.jpg");
      background-size: cover;
      opacity: 90%;
      padding: 50px;
@@ -406,8 +410,8 @@ footer{
 
 .cajas{
     background: black;
-    width: 208px;
-    height: 208px;
+    width: 303px;
+    height: 425px;
     display: inline-block;
     margin-left: 70px;
     margin-bottom: 110px;
@@ -420,6 +424,11 @@ footer{
     text-align: center;
 }
 
+.nombresrock{
+    color: black;
+    display: inline-block;
+    margin-left: 160px;
+}
 
 #bodyrock h1{
 color: black;
@@ -459,11 +468,11 @@ margin-left: 10px;
 
 .cajas{
     background: black;
-    width: 208px;
-    height: 208px;
+    width: 303px;
+    height: 425px;
     display: inline-block;
-    margin-left: 70px;
-    margin-bottom: 110px;
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
 
 #bodypunk{
@@ -471,6 +480,11 @@ margin-left: 10px;
     background-size: cover;
     color:white;
     text-align: center;
+}
+.nombrespunk {
+    color: black;
+    display:inline-block;
+    margin-left: 160px;
 }
 
 
@@ -496,15 +510,17 @@ color: white;
 
 }
 
+
+
 /* HTML METAL */ 
 
 .cajasmetal{
     background:white;
-    width: 208px;
-    height: 208px;
+    width: 303px;
+    height: 425px;
     display: inline-block;
-    margin-left: 70px;
-    margin-bottom: 110px;
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
 
 #bodymetal{
@@ -514,6 +530,14 @@ color: white;
     text-align: center;
 }
 
+.nombres {
+    color: white;
+    display: inline-block;
+    margin-left: 160px;
+    
+   
+    
+}
 
 #bodymetal h1{
 color:white;
@@ -589,3 +613,98 @@ color:black;
     margin-right: 5px;
     color: #777777;
   }
+
+  #MoreBeer{
+      background: url("../IMAGES/Textura\ negro.jpg");
+      
+      
+  }
+
+  #MoreBeer h1{
+      color: white;
+      font-size: 36px;
+      text-align: center;
+  }
+  
+  #MoreBeer section{
+      width: 1080px; 
+      margin: 0 auto;
+      
+  }
+  #MoreBeer aside{
+      background:url("../IMAGES/morebeer.jpg");
+      width: 350px;
+      height: 350px;
+     margin: 30px 0px;
+      
+  }
+  #MoreBeer p{
+      float: right;
+      width: 680px;
+      color: white;
+      margin-top: 0px;
+      font-size: 18px;
+  }
+  #MoreBeer h2{
+      text-align: left;
+      color: white;
+      font-weight: bold;
+      
+
+  }
+  #MoreBeer div{text-align:justify;
+color: white; 
+font-size: 18px;}
+
+#MoreBeer a{
+    text-decoration: none;
+    color: white;
+}
+
+#MoreBeer li{
+    text-decoration: none;
+    color: white;
+}
+
+
+.social a {
+    display: inline-block;
+    color: white;
+    border-radius: 50%;
+    background-color: #fcd116;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    text-align: center;
+    
+    
+  }
+
+  .social a:hover {
+    background-color: #222;
+  }
+.social{
+    position:relative;
+    left: 450px;
+
+}
+
+#Morebeerfooter{
+    color: white;
+    margin-top: 10px;
+}
+
+#integrantes{
+    position: relative;
+    top: -250px;
+    left: 600px;
+    font-weight: bold;
+    
+    
+}
